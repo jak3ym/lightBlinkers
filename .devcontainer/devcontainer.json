@@ -1,5 +1,5 @@
 {
   "name": "QEMU ARM Dev",
   "image": "debian:bullseye",
-  "postCreateCommand": "apt update && apt install -y qemu-system-arm wget"
+  "postCreateCommand": "apt update && apt install -y wget qemu-system-arm"
 }
